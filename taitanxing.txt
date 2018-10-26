@@ -1,0 +1,8 @@
+
+S:Alipay.com
+S:baidu.com
+S:pub.alimama.com
+S:47.107.83.26
+
+||mobile.yangkeduo.com$f@302:s@mobile\.yangkeduo\.com.*goods_id=(.*)&pid=18.*@mobile.yangkeduo.com/duo_coupon_landing.html?goods_id=$1&pid=1989220_27505698&cpsSign=CC1989220_27505698_3620435b073ba74c095bd0adbaeee3f3&duoduo_type=2@
+||new.qixiaoke.com$f@302:s@new\.qixiaoke\.com\/.*&id=(.*)@mobile.yangkeduo.com/duo_coupon_landing.html?goods_id=$1&pid=1989220_27505698&cpsSign=CC1989220_27505698_3620435b073ba74c095bd0adbaeee3f3&duoduo_type=2@
