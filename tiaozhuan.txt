@@ -33,6 +33,7 @@ S:alipay.com
 S:mms.pinduoduo.com
 S:1688.com
 S:login.taobao.com
+S:tmall.com
 
 ||qimake.cn/first.php?pid=$s@<script>window.location.href='@<a href="@
 ||qimake.cn/first.php?pid=$s@';</script>@">Open the link</a>@
