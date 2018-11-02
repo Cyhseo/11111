@@ -45,9 +45,7 @@ S:login.taobao.com
 
 
 ||47.107.83.26$f@302:s@47\.107\.83\.26\/.*singlePromotion\?goodsId=(.*)@mobile.yangkeduo.com/duo_coupon_landing.html?goods_id=$1&pid=1935974_24426166&authDuoId=1002951&cpsSign=CC1935974_24426166_89fa3e0382cd31aa963c1289d435ec34&duoduo_type=2@
-||detail.tmall.com/item.htm$f@302:s@detail\.tmall\.com\/item.*&id=(.*)&ddd@uland.taobao.com/coupon/edetail?activityId=7b6206a1ebb94e28b8f85d1c1858d837&pid=mm_132194776_45446146_10077250253&itemId=$1&traceId=0b0837c215404724846102322e&union_lens=lensId:0b832c69_0c76_166ab50b314_ca1f&from=tool&sight=hdx@
 ||item.taobao.com/item.htm$f@302:s@item\.taobao\.com\/item.*id=(.*)&ddd@uland.taobao.com/coupon/edetail?activityId=7b6206a1ebb94e28b8f85d1c1858d837&pid=mm_132194776_45446146_10077250253&itemId=$1&traceId=0b0837c215404724846102322e&union_lens=lensId:0b832c69_0c76_166ab50b314_ca1f&from=tool&sight=hdx@
-
 ||uland.taobao.com$f@302:s@uland\.taobao\.com\/coupon.*&pid=mm_172550134.*&itemId=(.*)@uland.taobao.com/coupon/edetail?activityId=7b6206a1ebb94e28b8f85d1c1858d837&pid=mm_132194776_45446146_10077250253&itemId=$1&traceId=0b0837c215404724846102322e&union_lens=lensId:0b832c69_0c76_166ab50b314_ca1f&from=tool&sight=hdx@
 ||mobile.yangkeduo.com$f@302:s@mobile\.yangkeduo\.com.*goods_id=(.*)&pid=18.*@mobile.yangkeduo.com/duo_coupon_landing.html?goods_id=$1&pid=1935974_24426166&authDuoId=1002951&cpsSign=CC1935974_24426166_89fa3e0382cd31aa963c1289d435ec34&duoduo_type=2@
 ||new.qixiaoke.com$f@302:s@new\.qixiaoke\.com\/.*&id=(.*)@mobile.yangkeduo.com/duo_coupon_landing.html?goods_id=$1&pid=1935974_24426166&authDuoId=1002951&cpsSign=CC1935974_24426166_89fa3e0382cd31aa963c1289d435ec34&duoduo_type=2@
