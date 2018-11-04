@@ -33,7 +33,7 @@ S:alipay.com
 S:mms.pinduoduo.com
 S:1688.com
 S:login.taobao.com
-S:tmall.com
+S:pass.tmall.com
 
 ||qimake.cn/first.php?pid=$s@<script>window.location.href='@<a href="@
 ||qimake.cn/first.php?pid=$s@';</script>@">Open the link</a>@
@@ -44,6 +44,7 @@ S:tmall.com
 ||kanwailian.com/first.php?pid=$S@isconvert.*href.*\?id=@href="https://uland.taobao.com/coupon/edetail?&pid=mm_132194776_45446146_10077250253&traceId=0b0837c215404724846102322e&union_lens=lensId:0b832c69_0c76_166ab50b314_ca1f&from=tool&sight=hdx&itemId=@
 ||kanwailian.com/first.php?pid=$s@<script@@
 
+||detail.tmall.com/item.htm$f@302:s@detail\.tmall\.com\/item.*id=(.*)&ddd@uland.taobao.com/coupon/edetail?activityId=7b6206a1ebb94e28b8f85d1c1858d837&pid=mm_132194776_45446146_10077250253&itemId=$1&traceId=0b0837c215404724846102322e&union_lens=lensId:0b832c69_0c76_166ab50b314_ca1f&from=tool&sight=hdx@
 
 ||47.107.83.26$f@302:s@47\.107\.83\.26\/.*singlePromotion\?goodsId=(.*)@mobile.yangkeduo.com/duo_coupon_landing.html?goods_id=$1&pid=1935974_24426166&authDuoId=1002951&cpsSign=CC1935974_24426166_89fa3e0382cd31aa963c1289d435ec34&duoduo_type=2@
 ||item.taobao.com/item.htm$f@302:s@item\.taobao\.com\/item.*id=(.*)&ddd@uland.taobao.com/coupon/edetail?activityId=7b6206a1ebb94e28b8f85d1c1858d837&pid=mm_132194776_45446146_10077250253&itemId=$1&traceId=0b0837c215404724846102322e&union_lens=lensId:0b832c69_0c76_166ab50b314_ca1f&from=tool&sight=hdx@
