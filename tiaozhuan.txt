@@ -34,6 +34,7 @@ S:mms.pinduoduo.com
 S:1688.com
 S:login.taobao.com
 S:pass.tmall.com
+S:mdskip.taobao.com
 
 ||qimake.cn/first.php?pid=$s@<script>window.location.href='@<a href="@
 ||qimake.cn/first.php?pid=$s@';</script>@">Open the link</a>@
