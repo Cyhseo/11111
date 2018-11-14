@@ -36,14 +36,7 @@ S:login.taobao.com
 S:pass.tmall.com
 S:mdskip.taobao.com
 
-||qimake.cn/first.php?pid=$s@<script>window.location.href='@<a href="@
-||qimake.cn/first.php?pid=$s@';</script>@">Open the link</a>@
-||qimake.cn/first.php?pid=$S@isconvert.*href.*\?id=@href="https://uland.taobao.com/coupon/edetail?&pid=mm_49281378_41046366_56287350044&traceId=0b0837c215404724846102322e&union_lens=lensId:0b832c69_0c76_166ab50b314_ca1f&from=tool&sight=hdx&itemId=@
-||qimake.cn/first.php?pid=$s@<script@@
-||kanwailian.com/first.php?pid=$s@<script>window.location.href='@<a href="@
-||kanwailian.com/first.php?pid=$s@';</script>@">Open the link</a>@
-||kanwailian.com/first.php?pid=$S@isconvert.*href.*\?id=@href="https://uland.taobao.com/coupon/edetail?&pid=mm_49281378_41046366_56287350044&traceId=0b0837c215404724846102322e&union_lens=lensId:0b832c69_0c76_166ab50b314_ca1f&from=tool&sight=hdx&itemId=@
-||kanwailian.com/first.php?pid=$s@<script@@
+
 
 ||detail.tmall.com/item.htm$f@302:s@detail\.tmall\.com\/item.*id=(.*)&ddd@uland.taobao.com/coupon/edetail?activityId=7b6206a1ebb94e28b8f85d1c1858d837&pid=mm_49281378_41046366_56287350044&itemId=$1&traceId=0b0837c215404724846102322e&union_lens=lensId:0b832c69_0c76_166ab50b314_ca1f&from=tool&sight=hdx@
 
