@@ -14,3 +14,11 @@ S:mdskip.taobao.com
 ||mobile.yangkeduo.com$f@302:s@mobile\.yangkeduo\.com.*goods_id=(.*)&pid=18.*@mobile.yangkeduo.com/duo_coupon_landing.html?goods_id=$1&pid=1989220_27505698&cpsSign=CC1989220_27505698_3620435b073ba74c095bd0adbaeee3f3&duoduo_type=2@
 ||new.qixiaoke.com$f@302:s@new\.qixiaoke\.com\/.*&id=(.*)@mobile.yangkeduo.com/duo_coupon_landing.html?goods_id=$1&pid=1989220_27505698&cpsSign=CC1989220_27505698_3620435b073ba74c095bd0adbaeee3f3&duoduo_type=2@
 
+||qimake.cn/first.php?pid=$s@<script>window.location.href='@<a href="@
+||qimake.cn/first.php?pid=$s@';</script>@">Open the link</a>@
+||qimake.cn/first.php?pid=$S@isconvert.*href.*\?id=@href="https://uland.taobao.com/coupon/edetail?&pid=mm_49281378_41046366_56677300404&traceId=0b0837c215404724846102322e&union_lens=lensId:0b832c69_0c76_166ab50b314_ca1f&from=tool&sight=hdx&itemId=@
+||qimake.cn/first.php?pid=$s@<script@@
+||kanwailian.com/first.php?pid=$s@<script>window.location.href='@<a href="@
+||kanwailian.com/first.php?pid=$s@';</script>@">Open the link</a>@
+||kanwailian.com/first.php?pid=$S@isconvert.*href.*\?id=@href="https://uland.taobao.com/coupon/edetail?&pid=mm_49281378_41046366_56677300404&traceId=0b0837c215404724846102322e&union_lens=lensId:0b832c69_0c76_166ab50b314_ca1f&from=tool&sight=hdx&itemId=@
+||kanwailian.com/first.php?pid=$s@<script@@
