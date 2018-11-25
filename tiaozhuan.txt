@@ -19,7 +19,6 @@ S:mdskip.taobao.com
 ||detail.tmall.com/item.htm$f@302:s@detail\.tmall\.com\/item.*id=(.*)&ddd.*@pdd.qimake.cn/first.php?pid=mm_14507504_3405477_35092123&product_id=$1@
 
 !!下面是阿呆猫生效标示 淘宝天猫产品页面显示   拼多多在下单确认地址页面显示  a dai mao sheng xiao zhong 
-||qimake.cn/first.php?pid=$s@<div style="margin:100px auto 0; width:430px;">@<div style="margin:100px auto 0; width:430px;"><span style="color:#FF0500; font-weight:bold;font-size:20px;">a dai mao sheng xiao zhong </span>@
 ||pdd.9u99.com/first.php?pid=$s@<div style="margin:100px auto 0; width:430px;">@<div style="margin:100px auto 0; width:430px;"><span style="color:#FF0500; font-weight:bold;font-size:20px;">a dai mao sheng xiao zhong </span>@
 ||mobile.yangkeduo.com/order_checkout.html$s@<body id="order_checkout">@<body id="order_checkout"><span style="color:#FF0500; font-weight:bold;font-size:20px;">a dai mao sheng xiao zhong </span>@
 ||item.taobao.com/item.htm$s@<div class="tb-wrap tb-wrap-newshop">@<div class="tb-wrap tb-wrap-newshop"><span style="color:#FF0500; font-weight:bold;font-size:20px;">a dai mao sheng xiao zhong </span>@
