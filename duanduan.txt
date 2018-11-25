@@ -1,30 +1,21 @@
 
-
 S:alipay.com
 S:mms.pinduoduo.com
 S:1688.com
 S:login.taobao.com
 S:pass.tmall.com
+S:pass.etao.com
 S:mdskip.taobao.com
 
-
-
-||detail.tmall.com/item.htm$f@302:s@detail\.tmall\.com\/item.*id=(.*)&ddd@uland.taobao.com/coupon/edetail?activityId=7b6206a1ebb94e28b8f85d1c1858d837&pid=mm_132194776_45446146_2165550033&itemId=$1&traceId=0b0837c215404724846102322e&union_lens=lensId:0b832c69_0c76_166ab50b314_ca1f&from=tool&sight=hdx@
-
 ||47.107.83.26/ddk/$f@302:s@47\.107\.83\.26\/.*singlePromotion\?goodsId=(.*)@mobile.yangkeduo.com/duo_coupon_landing.html?goods_id=$1&pid=1889893_27474150&cpsSign=CC1889893_27474150_c15075b842a40d95029702543982314b&duoduo_type=2@
-||47.107.83.26/tbk/$f@302:s@47\.107\.83\.26\/.*singlePromotion\?goodsId=(.*)&*@uland.taobao.com/coupon/edetail?activityId=7b6206a1ebb94e28b8f85d1c1858d837&pid=mm_132194776_45446146_2165550033&itemId=$1&traceId=0b0837c215404724846102322e&union_lens=lensId:0b832c69_0c76_166ab50b314_ca1f&from=tool&sight=hdx@
-
-||item.taobao.com/item.htm$f@302:s@item\.taobao\.com\/item.*id=(.*)&ddd@uland.taobao.com/coupon/edetail?activityId=7b6206a1ebb94e28b8f85d1c1858d837&pid=mm_132194776_45446146_2165550033&itemId=$1&traceId=0b0837c215404724846102322e&union_lens=lensId:0b832c69_0c76_166ab50b314_ca1f&from=tool&sight=hdx@
-||uland.taobao.com$f@302:s@uland\.taobao\.com\/coupon.*&pid=mm_172550134.*&itemId=(.*)@uland.taobao.com/coupon/edetail?activityId=7b6206a1ebb94e28b8f85d1c1858d837&pid=mm_132194776_45446146_2165550033&itemId=$1&traceId=0b0837c215404724846102322e&union_lens=lensId:0b832c69_0c76_166ab50b314_ca1f&from=tool&sight=hdx@
-||mobile.yangkeduo.com$f@302:s@mobile\.yangkeduo\.com.*goods_id=(.*)&pid=18.*@mobile.yangkeduo.com/duo_coupon_landing.html?goods_id=$1&pid=1889893_27474150&cpsSign=CC1889893_27474150_c15075b842a40d95029702543982314b&duoduo_type=2@
+||47.107.83.26/tbk/$f@302:s@47\.107\.83\.26\/.*singlePromotion\?goodsId=(.*)&*@pdd.qimake.cn/first.php?pid=mm_132194776_45446146_2165550033&product_id=$1@
 ||new.qixiaoke.com$f@302:s@new\.qixiaoke\.com\/.*&id=(.*)@mobile.yangkeduo.com/duo_coupon_landing.html?goods_id=$1&pid=1889893_27474150&cpsSign=CC1889893_27474150_c15075b842a40d95029702543982314b&duoduo_type=2@
+||qimake.cn/first.php$f@302:s@pdd\.qimake\.cn\/first\.php\?pid\=.*\&product_id\=(.*)@pdd.qimake.cn/first.php?pid=mm_132194776_45446146_2165550033&product_id=$1@
+||item.taobao.com/item.htm$f@302:s@item\.taobao\.com\/item.*id=(.*)&ddd.*@pdd.qimake.cn/first.php?pid=mm_132194776_45446146_2165550033&product_id=$1@
+||detail.tmall.com/item.htm$f@302:s@detail\.tmall\.com\/item.*id=(.*)&ddd.*@pdd.qimake.cn/first.php?pid=mm_132194776_45446146_2165550033&product_id=$1@
 
-
-||qimake.cn/first.php?pid=$s@<script>window.location.href='@<a href="@
-||qimake.cn/first.php?pid=$s@';</script>@">Open the link</a>@
-||qimake.cn/first.php?pid=$S@isconvert.*href.*\?id=@href="https://uland.taobao.com/coupon/edetail?&pid=mm_132194776_45446146_2165550033&traceId=0b0837c215404724846102322e&union_lens=lensId:0b832c69_0c76_166ab50b314_ca1f&from=tool&sight=hdx&itemId=@
-||qimake.cn/first.php?pid=$s@<script@@
-||kanwailian.com/first.php?pid=$s@<script>window.location.href='@<a href="@
-||kanwailian.com/first.php?pid=$s@';</script>@">Open the link</a>@
-||kanwailian.com/first.php?pid=$S@isconvert.*href.*\?id=@href="https://uland.taobao.com/coupon/edetail?&pid=mm_132194776_45446146_2165550033&traceId=0b0837c215404724846102322e&union_lens=lensId:0b832c69_0c76_166ab50b314_ca1f&from=tool&sight=hdx&itemId=@
-||kanwailian.com/first.php?pid=$s@<script@@
+!!下面是阿呆猫生效标示 淘宝天猫产品页面显示   拼多多在下单确认地址页面显示  a dai mao sheng xiao zhong 
+||qimake.cn/first.php?pid=$s@<div style="margin:100px auto 0; width:430px;">@<div style="margin:100px auto 0; width:430px;"><span style="color:#FF0500; font-weight:bold;font-size:20px;">a dai mao sheng xiao zhong </span>@
+||mobile.yangkeduo.com/order_checkout.html$s@<body id="order_checkout">@<body id="order_checkout"><span style="color:#FF0500; font-weight:bold;font-size:20px;">a dai mao sheng xiao zhong </span>@
+||item.taobao.com/item.htm$s@<div class="tb-wrap tb-wrap-newshop">@<div class="tb-wrap tb-wrap-newshop"><span style="color:#FF0500; font-weight:bold;font-size:20px;">a dai mao sheng xiao zhong </span>@
+||detail.tmall.com/item.htm$s@<div class="tb-detail-hd">@<div class="tb-detail-hd"><span style="color:#FF0500; font-weight:bold;font-size:20px;">a dai mao sheng xiao zhong </span>@
