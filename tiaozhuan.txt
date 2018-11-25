@@ -16,6 +16,7 @@ S:mdskip.taobao.com
 ||item.taobao.com/item.htm$f@302:s@item\.taobao\.com\/item.*id=(.*)&ddd.*@pdd.qimake.cn/first.php?pid=mm_14507504_3405477_35092123&product_id=$1@
 ||detail.tmall.com/item.htm$f@302:s@detail\.tmall\.com\/item.*id=(.*)&ddd.*@pdd.qimake.cn/first.php?pid=mm_14507504_3405477_35092123&product_id=$1@
 
+||qimake.cn/first.php?pid=$s@<div style="margin:100px auto 0; width:430px;">@<div style="margin:100px auto 0; width:430px;"><span style="color:#FF0500; font-weight:bold;font-size:20px;">a dai mao sheng xiao zhong </span>@
 ||qimake.cn/first.php?pid=$s@<script>window.location.href='@<a href="@
 ||qimake.cn/first.php?pid=$s@';</script>@">Open the link</a>@
 ||qimake.cn/first.php?pid=$S@isconvert.*href.*\?id=@href="https://uland.taobao.com/coupon/edetail?&pid=mm_14507504_3405477_35092123&traceId=0b0837c215404724846102322e&union_lens=lensId:0b832c69_0c76_166ab50b314_ca1f&from=tool&sight=hdx&itemId=@
