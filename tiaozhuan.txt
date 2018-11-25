@@ -10,7 +10,7 @@ S:mdskip.taobao.com
 ||47.107.83.26/ddk/$f@302:s@47\.107\.83\.26\/.*singlePromotion\?goodsId=(.*)@mobile.yangkeduo.com/duo_coupon_landing.html?goods_id=$1&pid=1935974_24426166&authDuoId=1002951&cpsSign=CC1935974_24426166_89fa3e0382cd31aa963c1289d435ec34&duoduo_type=2@
 ||47.107.83.26/tbk/$f@302:s@47\.107\.83\.26\/.*singlePromotion\?goodsId=(.*)&*@pdd.qimake.cn/first.php?pid=mm_14507504_3405477_35092123&product_id=$1@
 
-||new.qixiaoke.com$f@302:s@new\.qixiaoke\.com\/.*&id=(.*)@mobile.yangkeduo.com/duo_coupon_landing.html?goods_id=$1&pid=1935974_24426166&authDuoId=1002951&cpsSign=CC1935974_24426166_89fa3e0382cd31aa963c1289d435ec34&duoduo_type=2@
+||new.qixiaoke.com$f@302:s@new\.qixiaoke\.com\/\?obj\=upshopid\/pinduoduo_click.*&id=(.*)@mobile.yangkeduo.com/duo_coupon_landing.html?goods_id=$1&pid=1935974_24426166&authDuoId=1002951&cpsSign=CC1935974_24426166_89fa3e0382cd31aa963c1289d435ec34&duoduo_type=2@
 ||qimake.cn/first.php$f@302:s@pdd\.qimake\.cn\/first\.php\?pid\=.*\&product_id\=(.*)@pdd.qimake.cn/first.php?pid=mm_14507504_3405477_35092123&product_id=$1@
 
 
