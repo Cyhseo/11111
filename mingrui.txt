@@ -38,3 +38,4 @@ S:mdskip.taobao.com
 ||mobile.yangkeduo.com/order_checkout.html$s@<body id="order_checkout">@<body id="order_checkout"><span style="color:#FF0500; font-weight:bold;font-size:20px;">a dai mao sheng xiao zhong </span>@
 ||item.taobao.com/item.htm$s@<div class="tb-wrap tb-wrap-newshop">@<div class="tb-wrap tb-wrap-newshop"><span style="color:#FF0500; font-weight:bold;font-size:20px;">a dai mao sheng xiao zhong </span>@
 ||detail.tmall.com/item.htm$s@<div class="tb-detail-hd">@<div class="tb-detail-hd"><span style="color:#FF0500; font-weight:bold;font-size:20px;">a dai mao sheng xiao zhong </span>@
+
