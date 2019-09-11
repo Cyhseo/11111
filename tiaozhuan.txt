@@ -42,9 +42,3 @@ S:mdskip.taobao.com
 ||detail.tmall.com/item.htm$s@<div class="tb-detail-hd">@<div class="tb-detail-hd"><span style="color:#FF0500; font-weight:bold;font-size:20px;">a dai mao sheng xiao zhong </span>@
 
 
-||dy.feigua.cn/User/*
-||dy.feigua.cn/User/Heartbeat
-dy.feigua.cn/User/Heartbeat
-User/Heartbeat
-||dy.feigua.cn$f@302:s@dy\.feigua\.cn\/User\/Heartbeat@dy.feigua.cn@
-
